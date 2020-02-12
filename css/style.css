@@ -1,0 +1,395 @@
+
+
+/*
+========Index=======
+1. Contact
+2. Navbar
+3. Hero
+4. About US
+5. Our Approch
+6. Our Work
+7. Free Consultation
+8. Footer
+*/
+
+/*-----Global CSS------*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #f0f2f4;
+}
+
+h1{
+	font-size: 18px;
+}
+
+h2{
+	font-size: 36px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+h5{
+	font-size: 22px;
+}
+
+h6{
+	font-size: 26px;
+}
+
+p{
+	font-size: 15px;
+}
+
+.cstm-btn-one{
+	background-color: #f8cd53;
+	color: #fff;
+	font-size: 25px;
+	padding: 12px 40px;
+	border-radius: 10px;
+	border-style: none;
+}
+.cstm-btn-two{
+    top: 25%;
+    left: -9%;
+    border-radius: 5px;
+    display: block;
+    padding: 12px 29px;
+    background: #DD4B2B;
+    color: #ffffff;
+    border: 3px solid white;
+}
+.cstm-btn-two:hover{
+	border: 3px solid white;
+    background: #ac3a21;
+    color: #ffffff;
+}
+.cstm-btn-three{
+	background-color: #dd4b2b;
+	color: #fff;
+	padding: 8px 35px;
+	border-radius: 20px;
+	border-style: none;
+	margin-top: 20px;
+}
+
+/*----------------------Theme CSS--------------------*/
+/*---Contact----*/
+.contact{
+	padding: 0px 0px;
+	margin: 0px;
+}
+
+.fa.fa-mobile{
+	font-size: 20px;
+	margin-right: 10px;
+}
+.contact-border{
+	border-right: 1px solid;
+}
+.fa.fa-envelope{
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.fa.fa-facebook-official{
+	font-size: 20px;
+	color: #1287bf;
+	margin-left: 10px;
+}
+
+/*Navbar Section*/
+
+.nav-head{
+	padding: 45px 0;
+	background-color: #fff!important;
+}
+
+.nav-link{
+	color: #31353e;
+	margin-right: 10px;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	color: #fff!important;
+	padding: 7px 18px;
+	border-radius: 5px;
+
+}
+.navbar-toggler-icon{
+	background-color: #fff;
+	color: #050706!important;
+}
+.menu{
+	max-width: 40px;
+
+}
+.consultation-bg a{
+	padding: 5px;
+	background-color: #de2b24;
+	color: #fff;
+}
+
+
+/*--------------------------Hero-------------------*/
+.hero{
+	background: url(../img/hero.png)no-repeat center top;
+	background-size: cover;
+	padding: 240px 0px;
+}
+.hero-content h1{
+	font-size: 48px;
+	color: #fff;
+}
+.hero-content h3{
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+
+/*------------------About Us ---------------------*/
+.about{
+	background-color: #fff;
+	padding: 80px 0px;
+}
+span{
+	border-bottom: 4px solid black;
+	display: block;
+	width: 10%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.about-one{
+	padding: 30px;
+}
+.about-one h5{
+	padding-top: 15px;
+}
+
+
+/*----------------------approch----------------*/
+.our-approch{
+	padding: 100px 0px;
+}
+.approch{
+	background-color: #fff;
+	margin: 25px 0px;
+
+}
+.step-one-img{
+	width: 100%;
+	height: 100%;
+	padding: 0px 0px;
+	position: relative;
+	float: left;
+}
+.step-one-btn{
+	position: absolute;
+	top: 25%;
+    left: -8%;
+}
+.step-two-img{
+	padding: 0px 0px;
+	
+	
+
+}
+.step-two-btn{
+	position: absolute;
+	top: 25%;
+    left: -14%;
+}
+
+.approch-content{
+	padding: 60px 60px;
+	position: relative;
+}
+.approch-content-two{
+	padding: 60px 60px;
+}
+
+.step-two-image{
+	width: 100%;
+	height: 100%;
+	padding: 0px 0px;
+	float: right;
+	
+}
+
+/*----------------------Our Work----------------*/
+
+.our-work{
+	background-color: #de2b24;
+	padding: 100px 0px;
+}
+
+.work-title{
+	color: #fff;
+}
+.work-content{
+	padding-top: 50px;
+}
+.work-span{
+	border-bottom: 4px solid #fff;
+
+}
+.nopadding{
+	padding: 0px 0px;
+}
+.work-img{
+	width: 100%;
+	height: 100%;
+}
+
+/*-------------Consultant----------*/
+.consultation{
+	background-color: #1287bf;
+}
+.consultation-title{
+	text-align: center;
+	color: #fff;
+}
+.fa.fa-chevron-circle-down {
+    font-size: 40px;
+    color: #ffffffcf;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.contact-form{
+	background-color: #fff;
+    padding: 35px;
+}
+.contact-form p{
+	    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+	    padding: 0px 40px;
+}
+.contact-form button {
+    margin: 0 auto;
+    padding: 10px 40px;
+    display: block;
+    background: #e44b45;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.triangle {
+    width: 0px;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 35px solid #fff;
+    position: absolute;
+    top: -35px;
+    left: 46%;
+}
+
+/*-------------Social-----------*/
+.social{
+	background-color: #2a2a2a;
+	text-align: center;
+	color: #fff;
+}
+.social-icon{
+    margin: 30px 0px;
+}
+.social-icon i {
+    background: transparent;
+    padding: 7px;
+    margin: 2px;
+    font-size: 30px;
+    border: 2px solid gray;
+    width: 54px;
+    color: #fff;
+}
+.fa.fa-facebook:hover{
+	border: 2px solid #c64c31e0;    
+}
+.fa.fa-twitter:hover{
+	border: 2px solid #c64c31e0; 
+}
+.fa.fa-linkedin:hover{
+	border: 2px solid #c64c31e0; 
+}
+.fa.fa-google-plus:hover{
+	border: 2px solid #c64c31e0; 
+}
+.social input{
+	margin: 30px 0px;
+    width: 100%;
+    padding: 15px 10px;
+    background: #5151517a;
+    border: none;
+}
+.social button {
+    color: #fff;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #645e5e;
+    font-size: 18px;
+}
+/*--------Footer---------*/
+
+footer{
+	 background: #515151;
+}
+footer p{
+    margin: 20px auto;
+    color: #fff;
+}
+
+/*Media querry*/
+
+/*------------- Mobile devices----------- */
+@media(min-width: 320px) and (max-width: 500px) {
+body{
+	text-align: center;
+}
+.contact-title{
+	text-align: center;
+}
+.contact-border{
+	border-style: none;
+}
+.about-one{
+	padding: 0px;
+}
+.step-one-btn{
+	position: absolute;
+    top: -19%;
+    left: 41%;
+}
+
+.step-two-btn{
+	position: absolute;
+	top: -18%;
+    left: 40%;
+}
+.hero{
+	padding: 100px 0px;
+}
+}
+
+
+/*----------------Small devices----------- */
+
+@media (min-width: 769px) and (max-width: 1140px) {
+
+
+
+}
+/*----------------- large devices----------------*/
+@media (min-width: 1200px) { ... }
